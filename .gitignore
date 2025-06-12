@@ -1,0 +1,22 @@
+# Fichiers générés par l'IDE/éditeur
+.vscode/
+.idea/
+
+# Fichiers de dépendances (Node, Python, etc.)
+node_modules/
+__pycache__/
+*.pyc
+
+# Fichiers de compilation
+build/
+dist/
+*.exe
+*.out
+
+# Fichiers d'environnement (sensible !)
+.env
+*.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
