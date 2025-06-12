@@ -11,7 +11,7 @@ export default function HomePage() {
     if (!loading) {
       if (user) {
         // Rediriger vers le tableau de bord parent si l'utilisateur est connecté
-        navigate('/dashboard/parent');
+        navigate('/home');
       } else {
         // Rediriger vers la page d'authentification si non connecté
         navigate('/auth');

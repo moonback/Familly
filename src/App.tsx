@@ -11,6 +11,7 @@ import ChildrenManagement from '@/pages/children-management';
 import TasksManagement from '@/pages/tasks-management';
 import RulesManagement from '@/pages/rules-management';
 import RewardsManagement from '@/pages/rewards-management';
+import HomeDashboard from '@/pages/home-dashboard';
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/auth" element={<AuthPage />} />
+              <Route path="/home" element={<HomeDashboard />} />
               <Route path="/dashboard/parent" element={<DashboardParent />} />
               <Route path="/dashboard/parent/children" element={<ChildrenManagement />} />
               <Route path="/dashboard/parent/tasks" element={<TasksManagement />} />
